@@ -2,6 +2,9 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route, Link, Redirect } from "react-router-dom";
 import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 function App() {
 	return (
@@ -13,10 +16,10 @@ function App() {
 				<div className="links-nav-container">
 					<nav className="links-nav">
 						<ul className="links">
-							<Link to="">
+							<Link to="/aboutme">
 								<li className="header-link">About Me</li>
 							</Link>
-							<Link to="">
+							<Link to="/projects">
 								<li className="header-link">Projects</li>
 							</Link>
 
@@ -28,7 +31,7 @@ function App() {
 								<li className="header-link">Git Hub</li>
 							</a>
 
-							<Link to="">
+							<Link to="/resume">
 								<li className="header-link">Resume</li>
 							</Link>
 						</ul>
@@ -38,6 +41,9 @@ function App() {
 			<div>
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/aboutme" element={<About />} />
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/resume" element={<Resume />} />
 				</Routes>
 			</div>
 		</div>
