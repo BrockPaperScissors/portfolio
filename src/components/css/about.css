@@ -1,0 +1,32 @@
+.about-container {
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.about-title {
+	text-align: center;
+}
+
+.about-story {
+	text-align: left;
+	text-indent: 5%;
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+@media (min-width: 600px) {
+	.about-story {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 300px) {
+	.about-story {
+		font-size: 18px;
+		line-height: 1.3;
+		text-indent: 5%;
+	}
+	.about-title {
+		font-size: 24px;
+	}
+}
