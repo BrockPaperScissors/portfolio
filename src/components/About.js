@@ -1,8 +1,10 @@
+import "./css/about.css";
+
 export default function About() {
 	return (
-		<div>
-			<h1>My Story:</h1>
-			<p>
+		<div className="about-container">
+			<h1 className="about-title">My Story:</h1>
+			<p className="about-story">
 				I spent the early parts of my life growing up in the frozen tundra that
 				is Minnesota. I got into playing sports very early on, starting with
 				hockey. As soon as I could stand, I was put into a pair of skates. I
@@ -47,8 +49,8 @@ export default function About() {
 				momentum, I enrolled into a 12-week software engineering bootcamp at
 				General Assembly in January of 2022. At the time of writing this, I have
 				just completed that 12-week journey and developed the skills needed to
-				make this website! From here, the sky is the limit and I keep the
-				momentum moving forward.
+				make this website! From here, the sky is the limit and the plan, I keep
+				the momentum moving forward.
 			</p>
 		</div>
 	);
