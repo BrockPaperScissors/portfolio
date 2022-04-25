@@ -1,0 +1,126 @@
+.resume-container {
+	color: white;
+}
+
+.resume-header {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid white;
+}
+
+.resume-name {
+	align-self: center;
+}
+
+.resume-contacts {
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	align-items: center;
+	justify-content: space-evenly;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0 auto;
+}
+
+.resume-contacts li {
+	padding-left: 10px;
+	text-decoration: none;
+	color: white;
+}
+
+.resume-link:hover {
+	color: rgb(255, 199, 94);
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	/* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
+}
+.resume-link {
+	color: white;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.under-line {
+	text-decoration: underline;
+}
+
+.resume-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.skills-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: center;
+	width: 70%;
+
+	/* gap: 10%; */
+}
+
+.skills {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.skill {
+	margin-bottom: 0;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.skill-list {
+	padding-left: 0;
+}
+
+.skill-tools {
+	display: flex;
+	flex-direction: row;
+	gap: 10%;
+}
+
+.skill-disclaimer {
+	margin: 0;
+	font-size: 14px;
+}
+
+.education-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.education-credit {
+	font-size: 18px;
+	margin-bottom: 0;
+}
+
+.education-title {
+	margin-bottom: 0;
+}
+
+.resume-ejp {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 70%;
+}
+
+.res-li {
+	list-style-type: circle;
+}
+
+.res-ul {
+	margin-top: 0;
+}
+
+.je {
+	margin: 0;
+}
