@@ -4,6 +4,7 @@ export default function About() {
 	return (
 		<div className="about-container">
 			<h1 className="about-title">My Story:</h1>
+			<img src="https://i.imgur.com/LBtEelA.png" className="about-photo"></img>
 			<p className="about-story">
 				I spent the early parts of my life growing up in the frozen tundra that
 				is Minnesota. I got into playing sports very early on, starting with
