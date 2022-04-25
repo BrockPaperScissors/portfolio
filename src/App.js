@@ -8,7 +8,7 @@ import Resume from "./components/Resume";
 
 function App() {
 	return (
-		<div>
+		<div className="page-container">
 			<header className="page-header">
 				<Link to="/">
 					<h1 className="page-title">Michael Brock</h1>
@@ -23,11 +23,7 @@ function App() {
 								<li className="header-link">Projects</li>
 							</Link>
 
-							<a
-								href="https://github.com/BrockPaperScissors"
-								target="_blank"
-								id="link-git"
-							>
+							<a href="https://github.com/BrockPaperScissors" id="link-git">
 								<li className="header-link">Git Hub</li>
 							</a>
 

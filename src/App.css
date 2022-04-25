@@ -1,25 +1,31 @@
 * {
 	box-sizing: border-box;
+	/* color: white; */
 }
 
 .page-header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-bottom: 3px solid black;
+	border-bottom: 3px solid white;
+}
+
+.page-container {
+	background-color: black;
+	min-height: 1200px;
 }
 
 .page-title {
 	font-size: 38px;
 	font-weight: bold;
-	color: black;
+	color: white;
 	width: 100%;
 }
 
 .links-nav-container {
 	width: 100%;
 	background-color: rgb(196, 158, 108);
-	border-top: 3px solid black;
+	border-top: 3px solid white;
 }
 
 .links-nav {
@@ -57,6 +63,36 @@ a {
 .page-title:hover {
 	color: rgb(255, 199, 94);
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1100px) {
+	li.header-link {
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	ul.links {
+		margin: 10px auto;
+	}
+}
+
+.app-footer {
+	color: white;
+	border-top: 2px solid white;
+	margin-top: 20px;
+}
+
+.footer-nav {
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-ul {
+	display: flex;
+	width: 80%;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 @media (max-width: 325px) {
